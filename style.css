@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: grey;
+}
+.container {
+  width: 400px;
+  position: absolute;
+  padding: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+#text {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+#Qrtext {
+  height: 50px;
+  width: 100%;
+  border: 1px solid #494eea;
+  outline: 0;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border-radius: 10px;
+}
+#Enter-button {
+  height: 50px;
+  width: 100%;
+  background: #494eea;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  margin-top: 10px;
+}
+#imgbox {
+  width: 200px;
+  border-radius: 5px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+#qrimage {
+  width: 100%;
+  padding: 10px;
+}
+#imgbox.show-img {
+  max-height: 300px;
+  margin: 10px auto;
+  border: 1px solid #d1d1d1;
+}
+.error {
+  animation: shake 0.1s linear 10;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
