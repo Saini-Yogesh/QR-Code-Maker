@@ -31,7 +31,8 @@ body {
   margin: 10px 0 20px;
   border-radius: 10px;
 }
-#Enter-button {
+#Enter-button,
+#download-button {
   height: 50px;
   width: 100%;
   background: #494eea;

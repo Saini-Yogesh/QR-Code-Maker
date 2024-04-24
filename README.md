@@ -8,7 +8,6 @@
 
 
 # User Interface
-![image](https://github.com/Saini-Yogesh/QR-Code-Maker/assets/156106869/aea1fdbf-5e6e-4072-84d7-e787bf20a133) 
+![alt text](image-1.png)
 # User Interface After Generating QR
-![image](https://github.com/Saini-Yogesh/QR-Code-Maker/assets/156106869/97edc4be-7d8b-47c8-a169-4a6b9b7fa4ca)
-
+![alt text](image.png)
