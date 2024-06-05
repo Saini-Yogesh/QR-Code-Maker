@@ -4,79 +4,95 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 body {
   background-color: grey;
 }
+
 .container {
-  width: 400px;
+  width: 70vmin;
   position: absolute;
-  padding: 25px;
+  padding: 3vmin;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: aliceblue;
-  border-radius: 10px;
+  border-radius: 2vmin;
 }
+
 #text {
   font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 8px;
+  font-size: 4vmin;
+  margin-bottom: 1vmin;
 }
+
 #Qrtext {
-  height: 50px;
+  height: 8vmin;
   width: 100%;
-  border: 1px solid #494eea;
+  border: .2vmin solid #494eea;
   outline: 0;
-  padding: 10px;
-  margin: 10px 0 20px;
-  border-radius: 10px;
+  padding: .2vmin;
+  margin: 1vmin 0 1vmin;
+  border-radius: 1vmin;
+  font-size: 2.5vmin;
 }
+
 #Enter-button,
 #download-button {
-  height: 50px;
+  height: 8vmin;
   width: 100%;
   background: #494eea;
   color: #fff;
   border: 0;
   outline: 0;
-  border-radius: 5px;
+  border-radius: .5vmin;
   cursor: pointer;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 .5vmin .5vmin rgba(0, 0, 0, 0.1);
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 2vmin;
+  font-size: 2.5vmin;
 }
+
 #imgbox {
-  width: 200px;
-  border-radius: 5px;
+  width: 35vmin;
+  border-radius: .5vmin;
   max-height: 0px;
   overflow: hidden;
-  transition: max-height 1s;
+  transition: max-height;
 }
+
 #qrimage {
   width: 100%;
-  padding: 10px;
+  padding: 1vmin;
 }
+
 #imgbox.show-img {
-  max-height: 300px;
-  margin: 10px auto;
-  border: 1px solid #d1d1d1;
+  max-height: 45vmin;
+  margin: 1vmin auto;
+  border: .2vmin solid #d1d1d1;
 }
+
 .error {
   animation: shake 0.1s linear 10;
 }
+
 @keyframes shake {
   0% {
     transform: translateX(0);
   }
+
   25% {
     transform: translateX(-2px);
   }
+
   50% {
     transform: translateX(0);
   }
+
   75% {
     transform: translateX(2px);
   }
+
   100% {
     transform: translateX(0);
   }
