@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 70vmin;
+  width: 60vmin;
   position: absolute;
   padding: 3vmin;
   top: 50%;
@@ -22,7 +22,7 @@ body {
 
 #text {
   font-weight: 600;
-  font-size: 4vmin;
+  font-size: 2.5vmin;
   margin-bottom: 1vmin;
 }
 
@@ -34,7 +34,7 @@ body {
   padding: .2vmin;
   margin: 1vmin 0 1vmin;
   border-radius: 1vmin;
-  font-size: 2.5vmin;
+  font-size: 2vmin;
 }
 
 #Enter-button,
@@ -50,7 +50,7 @@ body {
   box-shadow: 0 .5vmin .5vmin rgba(0, 0, 0, 0.1);
   font-weight: 500;
   margin-top: 2vmin;
-  font-size: 2.5vmin;
+  font-size: 2vmin;
 }
 
 #imgbox {
